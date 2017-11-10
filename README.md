@@ -4,7 +4,7 @@
 
 ## How to use it
 
-1.  Install Pingy if you haven't already (Requires Pingy 0.10 or later).
+1.  Install Pingy if you haven't already (Requires [Pingy CLI](https://github.com/pingyhq/pingy-cli) 0.10 or later).
 
 ```
 npm install @pingy/cli --global
