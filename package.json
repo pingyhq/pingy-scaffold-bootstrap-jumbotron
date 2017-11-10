@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-jumbotron",
+  "version": "1.0.0",
+  "description":
+    "Super simple scaffold for Bootstrap 4 beta jumbotron and SCSS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pingy dev",
+    "export": "pingy export"
+  },
+  "keywords": ["pingy-scaffold"],
+  "author": "Dave Jeffery <dave@davejeffery.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.5"
+  }
+}

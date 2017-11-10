@@ -1,0 +1,64 @@
+{
+  "name": "bootstrap-scss",
+  "description":
+    "Super simple scaffold for Bootstrap 4 beta jumbotron and SCSS",
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.5"
+  },
+  "pingyJson": {
+    "sourceMap": false,
+    "exclusions": [
+      {
+        "path": "node_modules",
+        "action": "dontCompile",
+        "type": "dir"
+      },
+      {
+        "path": "node_modules/**",
+        "action": "exclude",
+        "type": "dir"
+      },
+      {
+        "path": "!node_modules/{popper.js,popper.js/dist,popper.js/dist/**}",
+        "action": "exclude",
+        "type": "dir"
+      },
+      {
+        "path": "!node_modules/{bootstrap,bootstrap/dist,bootstrap/dist/**}",
+        "action": "exclude",
+        "type": "dir"
+      },
+      {
+        "path": "!node_modules/{jquery,jquery/dist,jquery/dist/**}",
+        "action": "exclude",
+        "type": "dir"
+      }
+    ]
+  },
+  "files": [
+    {
+      "input": "index.html",
+      "output": "index.html"
+    },
+    {
+      "input": ".gitignore",
+      "output": ".gitignore"
+    },
+    {
+      "input": "scripts/main.js",
+      "output": "scripts/main.js",
+      "vars": {
+        "name": "world"
+      }
+    },
+    {
+      "input": "styles/main.scss",
+      "output": "styles/main.scss"
+    }
+  ]
+}
