@@ -28,7 +28,7 @@ pingy scaffold pingyhq/bootstrap-jumbotron
 pingy dev
 ```
 
-![Screenshot of bootstrap-jumbotron site](bootstrap-jumbotron.png?raw=true)
+<img src="bootstrap-jumbotron.png" width="670">
 
 5. When you're happy that your site is just the right amount of awesome you can export it and it's ready to be uploaded wherever you like. ⚡️
 
