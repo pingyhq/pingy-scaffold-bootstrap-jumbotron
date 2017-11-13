@@ -35,3 +35,7 @@ pingy dev
 ```
 pingy export
 ```
+
+## By the way
+
+This repo is designed to also work as a standalone site as well as a scaffold. So, you can also just clone this repo run `npm install` and then `npm start` if you like.
