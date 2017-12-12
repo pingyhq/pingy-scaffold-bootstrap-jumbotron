@@ -4,7 +4,7 @@
 
 ## How to use it
 
-1.  Install Pingy if you haven't already (Requires [Pingy CLI](https://github.com/pingyhq/pingy-cli) 0.10 or later).
+1. Install Pingy if you haven't already (Requires [Pingy CLI](https://github.com/pingyhq/pingy-cli) 0.10 or later).
 
 ```
 npm install @pingy/cli --global
@@ -19,7 +19,7 @@ mkdir mysite && cd mysite
 3. Scaffold your site
 
 ```
-pingy scaffold pingyhq/bootstrap-jumbotron
+pingy scaffold bootstrap-jumbotron
 ```
 
 4. Start up the pingy dev server and get to work. 💪
