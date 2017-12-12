@@ -1,14 +1,15 @@
 {
   "name": "pingy-scaffold-bootstrap-jumbotron",
-  "version": "1.0.0",
-  "description":
-    "Super simple Pingy scaffold for Bootstrap 4 beta jumbotron and SCSS",
+  "version": "1.0.1",
+  "description": "Super simple Pingy scaffold for Bootstrap 4 beta jumbotron and SCSS",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "pingyhq/pingy-scaffold-bootstrap-jumbotron",
-  "keywords": ["pingy-scaffold"],
+  "keywords": [
+    "pingy-scaffold"
+  ],
   "author": "Dave Jeffery <dave@davejeffery.com>",
   "license": "MIT"
 }
