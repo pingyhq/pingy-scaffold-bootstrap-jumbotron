@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap-scss",
+  "name": "bootstrap-jumbotron",
   "description":
     "Super simple scaffold for Bootstrap 4 beta jumbotron and SCSS",
   "devDependencies": {
